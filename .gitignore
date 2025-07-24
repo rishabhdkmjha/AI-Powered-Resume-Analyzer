@@ -1,0 +1,27 @@
+# Python virtual environment
+venv/
+env/
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# IDE and OS specific files
+.idea/
+.vscode/
+.DS_Store
+
+# Datasets - IMPORTANT
+*.csv
+*.xlsx
+
+# Saved models and vectorizers
+*.pkl
+*.keras
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# Output files
+evaluated_resumes.csv
