@@ -1,10 +1,10 @@
 NLP-Based Resume Evaluation System
-🚀 Overview
+ Overview
 This project is an intelligent system designed to automate the initial stages of the recruitment process. It uses machine learning and natural language processing to classify resumes into job categories and rank them against a given job description.
 
 The goal is to help recruiters and hiring managers quickly identify the most qualified candidates from a large pool of applicants, saving significant time and effort. The project is deployed as an interactive web application using Streamlit.
 
-✨ Features
+ Features
 Automated Resume Classification: Automatically categorizes resumes into predefined roles (e.g., Data Scientist, Web Developer) using a highly accurate Random Forest model.
 
 JD-Resume Matching: Ranks candidates based on the contextual similarity between their resume and the job description.
@@ -13,7 +13,7 @@ Similarity Scoring: Utilizes TF-IDF and Cosine Similarity to provide a quantitat
 
 Interactive Web App: A user-friendly interface built with Streamlit that allows for easy uploading of resumes and job descriptions.
 
-🛠️ Tech Stack
+ Tech Stack
 Backend: Python
 
 Machine Learning: Scikit-learn (RandomForest, TfidfVectorizer)
@@ -24,7 +24,7 @@ Web Framework: Streamlit
 
 Serialization: Joblib
 
-⚙️ How It Works
+ How It Works
 The system follows a robust NLP pipeline to process and evaluate resumes:
 
 Text Preprocessing: Raw text from resumes is cleaned by removing special characters, converting to lowercase, and handling noise.
@@ -37,7 +37,7 @@ Cosine Similarity Ranking: For resumes that match the relevant category, the sys
 
 Ranked Output: The Streamlit application displays a ranked list of candidates, sorted from most to least relevant based on their similarity score.
 
-📈 Model Performance
+ Model Performance
 The core classification model was trained and evaluated rigorously to ensure high performance and reliability.
 
 Model: Random Forest Classifier
@@ -46,7 +46,7 @@ Validation Method: K-Fold Cross-Validation
 
 Classification Accuracy: 99.48%
 
-🔧 Setup and Installation
+ Setup and Installation
 To run this project locally, please follow these steps:
 
 Clone the repository:
